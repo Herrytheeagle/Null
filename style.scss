@@ -1,0 +1,478 @@
+body,html{
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+/* header */
+header{
+	height: 170px;
+}
+header .top-header {
+  height: 30px;
+  background-color: black;
+  width: 100vw;
+}
+
+header .main-navbar {
+  height: 20vh;
+  /* background-color: aqua; */
+  width:90%;
+  margin: 0 auto;
+}
+
+header .navbar-brand {
+  /* float: left; */
+  z-index: 1000;
+  margin-top: -30px;
+}
+
+header .navbar-nav {
+  /* float: right; */
+  margin-top: 10px;
+	width:100%;
+  margin-bottom: 10px;
+}
+
+header .bar-item {
+  float: left;
+  margin-right: 10px;
+	@media screen and (max-width: 600px){
+		margin-right:0;
+		padding: 0;
+		margin-left: 5px;
+		font-size:8px;
+	}
+}
+.dropdown-button{
+	background-color: transparent !important;
+}
+header .bar-item .active {
+  background-color: brown;
+  color: #ffffff !important;
+}
+
+header .bar-item .bar-link {
+  padding: 1px 8px 25px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000000;
+	@media screen and (max-width: 600px){
+		padding:1px 8px 10px 8px;
+	}
+}
+
+
+header .bar-item .bar-link:hover {
+  color: brown;
+}
+
+
+/* header stops */
+.service1{
+	h1{
+		font-size:20px;
+		border-bottom: 2px solid #000;
+		border-top: 2px solid #000;
+		padding: 5px 0;
+		text-transform: uppercase;
+		font-weight: 500;
+		text-align: center;
+		span{
+			font-size:50px;
+			font-weight: 600;
+			margin-top: 30px;
+			padding-top: 10px;
+		}
+				
+			}
+	.card{
+		text-align: center;
+		box-shadow:none;
+		.card-content{
+			text-align: center;
+			padding-top: 0;
+			p{
+				padding: 0px 350px 0 350px;
+				text-align: center;
+				font-size:20px;
+				color:#000;
+			}
+			
+		}
+		button{
+				background-color:transparent;
+				height:40px;
+				padding: 5px;
+				color:gray;
+				border:2px solid gray;
+				margin-top: 50px;
+				margin-right: 60px;
+			}
+	}
+	@media screen and (max-width: 600px){
+		h1{
+			width:70%;
+			margin: auto;
+			font-size:16px;
+			span{
+				font-size:40px;
+			}
+		}
+		.card{
+			.card-content{
+				p{
+					padding:40px 20px 0 20px;
+					font-size:14px;
+				}
+			}
+		}
+	}
+}
+
+.testi{
+	.col{
+		padding: 0;
+		margin: 0;
+	}
+	.card{
+		height:400px;
+		margin-top: 0;
+	}
+	.one,.three{
+		padding-top:0; 
+		.card{
+		background-color: brown;
+			box-shadow: none;
+			
+		color:#fff;
+			height: 400px;
+			text-align: center;
+		.card-content{
+			//padding-top: 40px;
+			.card-title{
+				font-weight: 600;
+				margin-top: 30px;
+			}
+		}
+		}
+	}
+	.card1,.card2{
+		height: 400px;
+	}
+	.card1{
+		background-image: url("images/unnamed%20(1).webp");
+		background-position: top;
+		background-size: cover;
+	}
+	.card2{
+		@extend .card1;
+		background-image: url(images/blackman.webp);
+	}
+	@media screen and (max-width: 600px){
+		height:1000px;
+		.card{
+		height:300px;
+	}
+	.one,.three{
+		.card{
+		background-color: brown;
+			
+		color:#fff;
+			height: 300px;
+			text-align: center;
+		.card-content{
+			padding-top: 40px;
+			.card-title{
+				font-weight: 600;
+			}
+		}
+		}
+	}
+	.card1,.card2{
+		height: 400px;
+	}
+	}
+}
+.fast{
+	padding-left: 200px;
+	padding-right: 50px;
+	.card{
+		box-shadow: none;
+		
+		p{
+			border-bottom: 2px solid #000;
+			border-top: 2px solid #000;
+			font-size:50px;
+			font-weight: 600;
+		}
+		.card-stacked{
+			width:auto !important;
+			.card-content{
+				width:auto;
+			}
+		}
+	}
+	.card-image{
+		height:500px;
+		width:800px;
+		background-image: url("images/79c332_c9a6e8845baf4314866b50ce92372257_mv2.webp");
+		background-size: cover;
+		background-position: center;
+	}
+	@media screen and (max-width: 600px){
+		padding-left: 20px;
+		.card{
+			height: 300px;
+			p{
+			font-size:20px;
+		}
+		}
+		.card-image{
+			height: 300px !important;
+		}
+	}
+}
+
+//About Us//
+.about{
+	h1{
+		border-bottom:3px solid #000;
+		border-top:3px solid #000;
+		padding: 20px 0;
+		display: block;
+		font-weight: 700;
+		font-size:60px;
+		text-align: center;
+	}
+	.card{
+		box-shadow: none;
+		.card-content{
+			text-align: center;
+			p{
+				padding-left: 150px;
+				font-size:18px;
+				font-style: italic;
+			}
+		}
+		button{
+				background-color:transparent;
+				height:40px;
+				padding: 5px;
+				color:gray;
+				border:2px solid gray;
+				margin-top: 50px;
+				float:right;
+				margin-right: 60px;
+			}
+	}
+	@media screen and (max-width: 600px){
+		h1{
+			font-size:25px;
+			padding: 10px ;
+			width:70%;
+			margin: auto;
+				
+		}
+		.card{
+			.card-content{
+				p{
+					font-size:12px;
+					padding-left: 20px;
+				}
+			}
+			button{
+				float: left;
+				margin-left:60px;
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+//Our Services
+.service{
+	@extend .about;
+	.card{
+		text-align: center;
+		.card-content{
+			text-align: center;
+			p{
+				padding: 60px 400px 0 400px;
+				text-align: center;
+				color:saddlebrown;
+			}
+			
+		}
+		button{
+				text-align: center;
+				float:none;
+			}
+	}
+	@media screen and (max-width: 600px){
+		.card{
+			.card-content{
+				p{
+					padding:40px 20px 0 20px;
+				}
+			}
+		}
+	}
+}
+.program{
+	padding: 0 150px;
+	h1{
+		border-bottom:3px solid #000;
+		border-top:3px solid #000;
+		padding: 20px 0;
+		display: block;
+		margin-top: 80px;
+		font-weight: 600;
+		font-size:60px;
+		text-align: center;
+	}
+	.card{
+		height:550px;
+		.card-image{
+			padding: 20px;
+		}
+		.card-content{
+			.card-title{
+				color:brown;
+				font-weight: 400;
+				font-size:22px;
+			}
+		}
+	}
+	@media screen and (max-width: 600px){
+		padding: 0 20px;
+		h1{
+			font-size:20px;
+			width:70%;
+			margin: auto;
+		}
+		.card{
+			height: 420px;
+			.card-image{
+				img{
+					height: 200px;
+				}
+			}
+			.card-content{
+				.card-title {
+					font-size:18px;		
+				}
+				p{
+					font-size:12px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+
+//What's Going On...//
+.upcoming,.event{
+	@extend .program;
+	.card{
+		height:640px;
+		.card-content{
+			h5{
+				font-weight: 300;
+				font-size:16px;
+				margin-top: 0;
+			}
+		}
+	}
+	@media screen and (max-width: 600px){
+		.card{
+			height:500px;
+		}
+	}
+}
+
+//Footer--//
+
+footer {
+  margin-top: 5px;
+  background-color: black;
+  color: #ffffff;
+  height: 660px;
+	font-style: italic;
+  padding-top: 40px;
+  padding-bottom: 40px;
+	@media screen and (max-width: 600px){
+		height: 1550px;
+	}
+}
+.page-footer{
+	padding: 0 100px;
+	background-color: transparent;
+	.first{
+		p{
+			font-weight: 300;
+			a{
+				color:#fff;
+				text-decoration: underline;
+			}
+		}
+		.contact{
+			font-weight: 600;
+			font-size:30px;
+			font-weight: 500;
+		}
+		button{
+			width: 100%;
+			text-align: center;
+			background-color: #444;
+			color:#fff;
+			font-weight: 500;
+			border:none;
+			height: 40px;
+		}
+	}
+	.second{
+		@extend .first;
+		.fa{
+			background-color: #333;
+			padding: 12px;
+			font-size:25px;
+			margin-left: 20px;
+		}
+		form{
+			margin-top: 80px;
+			input{
+				border:1px solid gray;
+				padding-left: 10px;
+			}
+		}
+	}
+	.third{
+		@extend .second;
+		.contact{
+			margin-top: 130px;
+		}
+		form{
+			margin-top: 10px;
+		}
+	}
+	@media screen and (max-width: 600px){
+		padding-left: 20px;
+		.second{
+			form{
+				margin-top: 50px;
+			}
+			.fa{
+				font-size:20px;
+				margin-left: 8px;
+			}
+		}
+		.third{
+			.contact{
+				margin-top: 50px;
+			}
+		}
+	}
+}

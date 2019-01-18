@@ -1,0 +1,433 @@
+/* line 1, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif; }
+
+/* header */
+/* line 9, ../../UsersHeritage Samuel//Documents/wix site/Impactlagos/style.scss */
+header {
+  height: 170px; }
+
+/* line 12, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .top-header {
+  height: 30px;
+  background-color: black;
+  width: 100vw; }
+
+/* line 18, ../../UserHeritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .main-navbar {
+  height: 20vh;
+  /* background-color: aqua; */
+  width: 90%;
+  margin: 0 auto; }
+
+/* line 25, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .navbar-brand {
+  /* float: left; */
+  z-index: 1000;
+  margin-top: -30px; }
+
+/* line 31, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .navbar-nav {
+  /* float: right; */
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px; }
+
+/* line 38, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .bar-item {
+  float: left;
+  margin-right: 10px; }
+  @media screen and (max-width: 600px) {
+    /* line 38, ../../Heritage SamuelUsers/omole grace/Documents/wix site/Impactlagos/style.scss */
+    header .bar-item {
+      margin-right: 0;
+      padding: 0;
+      margin-left: 5px;
+      font-size: 8px; } }
+
+/* line 48, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.dropdown-button {
+  background-color: transparent !important; }
+
+/* line 51, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .bar-item .active {
+  background-color: brown;
+  color: #ffffff !important; }
+
+/* line 56, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .bar-item .bar-link {
+  padding: 1px 8px 25px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000000; }
+  @media screen and (max-width: 600px) {
+    /* line 56, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    header .bar-item .bar-link {
+      padding: 1px 8px 10px 8px; } }
+
+/* line 67, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+header .bar-item .bar-link:hover {
+  color: brown; }
+
+/* header stops */
+/* line 74, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.service1 h1 {
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center; }
+  /* line 82, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service1 h1 span {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-top: 10px; }
+
+/* line 90, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.service1 .card {
+  text-align: center;
+  box-shadow: none; }
+  /* line 93, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service1 .card .card-content {
+    text-align: center;
+    padding-top: 0; }
+    /* line 96, ../../Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .service1 .card .card-content p {
+      padding: 0px 350px 0 350px;
+      text-align: center;
+      font-size: 20px;
+      color: #000; }
+  /* line 104, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service1 .card button {
+    background-color: transparent;
+    height: 40px;
+    padding: 5px;
+    color: gray;
+    border: 2px solid gray;
+    margin-top: 50px;
+    margin-right: 60px; }
+
+@media screen and (max-width: 600px) {
+  /* line 115, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service1 h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 16px; }
+    /* line 119, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .service1 h1 span {
+      font-size: 40px; }
+  /* line 125, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service1 .card .card-content p {
+    padding: 40px 20px 0 20px;
+    font-size: 14px; } }
+
+/* line 135, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .col {
+  padding: 0;
+  margin: 0; }
+
+/* line 139, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .card {
+  height: 400px;
+  margin-top: 0; }
+
+/* line 143, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .one, .testi .three {
+  padding-top: 0; }
+  /* line 145, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .testi .one .card, .testi .three .card {
+    background-color: brown;
+    box-shadow: none;
+    color: #fff;
+    height: 400px;
+    text-align: center; }
+    /* line 154, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .testi .one .card .card-content .card-title, .testi .three .card .card-content .card-title {
+      font-weight: 600;
+      margin-top: 30px; }
+
+/* line 161, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .card1, .testi .card2, .testi .card2 {
+  height: 400px; }
+
+/* line 164, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .card1, .testi .card2 {
+  background-image: url("images/unnamed%20(1).webp");
+  background-position: top;
+  background-size: cover; }
+
+/* line 169, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.testi .card2 {
+  background-image: url(images/blackman.webp); }
+
+@media screen and (max-width: 600px) {
+  /* line 134, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .testi {
+    height: 1000px; }
+    /* line 175, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .testi .card {
+      height: 300px; }
+    /* line 179, ../../Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .testi .one .card, .testi .three .card {
+      background-color: brown;
+      color: #fff;
+      height: 300px;
+      text-align: center; }
+      /* line 185, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .testi .one .card .card-content, .testi .three .card .card-content {
+        padding-top: 40px; }
+        /* line 187, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+        .testi .one .card .card-content .card-title, .testi .three .card .card-content .card-title {
+          font-weight: 600; }
+    /* line 193, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .testi .card1, .testi .card2, .testi .card2 {
+      height: 400px; } }
+
+/* line 198, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.fast {
+  padding-left: 200px;
+  padding-right: 50px; }
+  /* line 201, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .fast .card {
+    box-shadow: none; }
+    /* line 204, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .fast .card p {
+      border-bottom: 2px solid #000;
+      border-top: 2px solid #000;
+      font-size: 50px;
+      font-weight: 600; }
+    /* line 210, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .fast .card .card-stacked {
+      width: auto !important; }
+      /* line 212, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .fast .card .card-stacked .card-content {
+        width: auto; }
+  /* line 217, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .fast .card-image {
+    height: 500px;
+    width: 800px;
+    background-image: url("images/79c332_c9a6e8845baf4314866b50ce92372257_mv2.webp");
+    background-size: cover;
+    background-position: center; }
+  @media screen and (max-width: 600px) {
+    /* line 198, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .fast {
+      padding-left: 20px; }
+      /* line 226, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .fast .card {
+        height: 300px; }
+        /* line 228, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+        .fast .card p {
+          font-size: 20px; }
+      /* line 232, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .fast .card-image {
+        height: 300px !important; } }
+
+/* line 240, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.about h1, .service h1 {
+  border-bottom: 3px solid #000;
+  border-top: 3px solid #000;
+  padding: 20px 0;
+  display: block;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center; }
+
+/* line 249, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.about .card, .service .card {
+  box-shadow: none; }
+  /* line 253, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .about .card .card-content p, .service .card .card-content p {
+    padding-left: 150px;
+    font-size: 18px;
+    font-style: italic; }
+  /* line 259, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .about .card button, .service .card button {
+    background-color: transparent;
+    height: 40px;
+    padding: 5px;
+    color: gray;
+    border: 2px solid gray;
+    margin-top: 50px;
+    float: right;
+    margin-right: 60px; }
+
+@media screen and (max-width: 600px) {
+  /* line 271, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .about h1, .service h1 {
+    font-size: 25px;
+    padding: 10px;
+    width: 70%;
+    margin: auto; }
+  /* line 280, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .about .card .card-content p, .service .card .card-content p {
+    font-size: 12px;
+    padding-left: 20px; }
+  /* line 285, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .about .card button, .service .card button {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px; } }
+
+/* line 297, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.service .card {
+  text-align: center; }
+  /* line 299, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service .card .card-content {
+    text-align: center; }
+    /* line 301, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .service .card .card-content p {
+      padding: 60px 400px 0 400px;
+      text-align: center;
+      color: saddlebrown; }
+  /* line 308, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service .card button {
+    text-align: center;
+    float: none; }
+
+@media screen and (max-width: 600px) {
+  /* line 316, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .service .card .card-content p {
+    padding: 40px 20px 0 20px; } }
+
+/* line 323, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.program, .upcoming, .event {
+  padding: 0 150px; }
+  /* line 325, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .program h1, .upcoming h1, .event h1 {
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+    padding: 20px 0;
+    display: block;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center; }
+  /* line 335, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .program .card, .upcoming .card, .event .card {
+    height: 550px; }
+    /* line 337, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .program .card .card-image, .upcoming .card .card-image, .event .card .card-image {
+      padding: 20px; }
+    /* line 341, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .program .card .card-content .card-title, .upcoming .card .card-content .card-title, .event .card .card-content .card-title {
+      color: brown;
+      font-weight: 400;
+      font-size: 22px; }
+  @media screen and (max-width: 600px) {
+    /* line 323, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .program, .upcoming, .event {
+      padding: 0 20px; }
+      /* line 350, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .program h1, .upcoming h1, .event h1 {
+        font-size: 20px;
+        width: 70%;
+        margin: auto; }
+      /* line 355, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .program .card, .upcoming .card, .event .card {
+        height: 420px; }
+        /* line 358, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+        .program .card .card-image img, .upcoming .card .card-image img, .event .card .card-image img {
+          height: 200px; }
+        /* line 363, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+        .program .card .card-content .card-title, .upcoming .card .card-content .card-title, .event .card .card-content .card-title {
+          font-size: 18px; }
+        /* line 366, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+        .program .card .card-content p, .upcoming .card .card-content p, .event .card .card-content p {
+          font-size: 12px; } }
+
+/* line 378, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.upcoming .card, .event .card {
+  height: 640px; }
+  /* line 381, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .upcoming .card .card-content h5, .event .card .card-content h5 {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0; }
+
+@media screen and (max-width: 600px) {
+  /* line 389, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .upcoming .card, .event .card {
+    height: 500px; } }
+
+/* line 397, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+footer {
+  margin-top: 5px;
+  background-color: black;
+  color: #ffffff;
+  height: 660px;
+  font-style: italic;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media screen and (max-width: 600px) {
+    /* line 397, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    footer {
+      height: 1550px; } }
+
+/* line 409, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+.page-footer {
+  padding: 0 100px;
+  background-color: transparent; }
+  /* line 413, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .first p, .page-footer .second p, .page-footer .third p {
+    font-weight: 300; }
+    /* line 415, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .page-footer .first p a, .page-footer .second p a, .page-footer .third p a {
+      color: #fff;
+      text-decoration: underline; }
+  /* line 420, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .first .contact, .page-footer .second .contact, .page-footer .third .contact {
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500; }
+  /* line 425, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .first button, .page-footer .second button, .page-footer .third button {
+    width: 100%;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    height: 40px; }
+  /* line 437, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .second .fa, .page-footer .third .fa {
+    background-color: #333;
+    padding: 12px;
+    font-size: 25px;
+    margin-left: 20px; }
+  /* line 443, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .second form, .page-footer .third form {
+    margin-top: 80px; }
+    /* line 445, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .page-footer .second form input, .page-footer .third form input {
+      border: 1px solid gray;
+      padding-left: 10px; }
+  /* line 453, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .third .contact {
+    margin-top: 130px; }
+  /* line 456, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+  .page-footer .third form {
+    margin-top: 10px; }
+  @media screen and (max-width: 600px) {
+    /* line 409, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+    .page-footer {
+      padding-left: 20px; }
+      /* line 463, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .page-footer .second form, .page-footer .third form {
+        margin-top: 50px; }
+      /* line 466, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .page-footer .second .fa, .page-footer .third .fa {
+        font-size: 20px;
+        margin-left: 8px; }
+      /* line 472, ../../Users/Heritage Samuel/Documents/wix site/Impactlagos/style.scss */
+      .page-footer .third .contact {
+        margin-top: 50px; } }
+
+/*# sourceMappingURL=style.css.map */
